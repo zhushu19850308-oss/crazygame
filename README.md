@@ -1,11 +1,31 @@
-<div align="center">
+# Crazy Eights Game
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A classic Crazy Eights card game built with React, Tailwind CSS, and Framer Motion.
 
-  <h1>Built with AI Studio</h2>
+## Features
+- AI Opponent
+- Smooth animations
+- Responsive design (Mobile & Desktop)
+- Wild card (8) logic with suit selection
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Deployment to Vercel
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1. Push this code to a GitHub repository.
+2. Go to [Vercel](https://vercel.com/) and import the repository.
+3. Vercel will automatically detect the Vite project.
+4. Set the following environment variable if you plan to use AI features (optional for the core game):
+   - `GEMINI_API_KEY`: Your Google AI SDK key.
+5. Click **Deploy**.
 
-</div>
+## Local Development
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
